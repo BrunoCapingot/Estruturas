@@ -22,7 +22,7 @@ class Stack():
             node = self.top
             self.top = self.top.next
             self._size = self._size - 1
-            return node
+            return node.data
         raise IndexError("A pilha ta vazia")
 
     def peek(self):
