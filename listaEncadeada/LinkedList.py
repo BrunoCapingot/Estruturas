@@ -1,4 +1,4 @@
-from Node import Node
+from Estruturas.DuplicatedLinkedList import Node
 
 
 class LinkedList:
